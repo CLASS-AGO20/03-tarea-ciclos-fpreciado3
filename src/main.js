@@ -14,7 +14,14 @@ export default class App {
         let m = 1;
         let suma = 0;
 
-        while()
+        while(m <= numero) {
+
+            if(m%2 == 0) {
+                suma = suma + 1/m;
+            } else {
+                suma = suma - 1/m;
+            }
+        }
     }
 }
 
