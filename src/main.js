@@ -24,6 +24,8 @@ export default class App {
 
             m++;
         }
+
+        return suma;
     }
 }
 
@@ -31,3 +33,5 @@ let app = new App();
 
 //Prueba de sumatoriaSerieUno()
 console.log(app.sumatoriaSerieUno(6));
+//Prueba de sumatoriaSerieDos()
+console.log(app.sumatoriaSerieDos(6));
