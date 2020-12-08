@@ -11,7 +11,10 @@ export default class App {
     }
 
     sumatoriaSerieDos(numero) {
+        let m = 1;
         let suma = 0;
+
+        while()
     }
 }
 
