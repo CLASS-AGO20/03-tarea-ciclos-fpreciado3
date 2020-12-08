@@ -11,8 +11,8 @@ export default class App {
     }
 
     sumatoriaSerieDos(numero) {
-        let m = 1;
-        let suma = 0;
+        let m = 2;
+        let suma = 1;
 
         while(m <= numero) {
 
@@ -21,6 +21,8 @@ export default class App {
             } else {
                 suma = suma - 1/m;
             }
+
+            m++;
         }
     }
 }
