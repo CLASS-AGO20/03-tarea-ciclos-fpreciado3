@@ -14,4 +14,4 @@ export default class App {
 let app = new App();
 
 //Prueba de sumatoriaSerieUno()
-
+console.log(app.sumatoriaSerieUno(6));
