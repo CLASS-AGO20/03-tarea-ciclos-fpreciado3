@@ -9,6 +9,10 @@ export default class App {
 
         return suma;
     }
+
+    sumatoriaSerieDos(numero) {
+        let suma = 0;
+    }
 }
 
 let app = new App();
