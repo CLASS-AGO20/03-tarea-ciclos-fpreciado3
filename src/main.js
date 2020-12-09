@@ -45,7 +45,12 @@ export default class App {
 
 let app = new App();
 
-//Prueba de sumatoriaSerieUno()
+//Prueba de la función sumatoriaSerieUno()
 console.log(app.sumatoriaSerieUno(6));
-//Prueba de sumatoriaSerieDos()
+//Prueba de la función sumatoriaSerieDos()
 console.log(app.sumatoriaSerieDos(6));
+//Prueba de la función esPrimo()
+console.log(app.esPrimo(2));
+console.log(app.esPrimo(3));
+console.log(app.esPrimo(7));
+console.log(app.esPrimo(8));
