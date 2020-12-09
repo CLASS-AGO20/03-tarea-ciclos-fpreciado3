@@ -27,8 +27,19 @@ export default class App {
 
         return suma;
     }
+    
     esPrimo(numero) {
-        
+
+        do {
+            if(numero === 2 || numero === 3) {
+                return true;
+            } else if(numero%2 !== 0 && numero%3 !== 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        while(numero >= 2);
     }
 }
 
