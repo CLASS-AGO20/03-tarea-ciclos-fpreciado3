@@ -27,6 +27,9 @@ export default class App {
 
         return suma;
     }
+    esPrimo(numero) {
+        
+    }
 }
 
 let app = new App();
