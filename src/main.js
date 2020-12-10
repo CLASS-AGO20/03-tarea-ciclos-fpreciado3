@@ -43,7 +43,13 @@ export default class App {
     }
 
     obtenerMultiplos(inicio, fin) {
-
+        
+        if(inicio>fin) {
+            let t = inicio;
+            inicio = fin;
+            fin = t;
+        }
+    }
 }
 
 let app = new App();
