@@ -48,7 +48,19 @@ export default class App {
             let t = inicio;
             inicio = fin;
             fin = t;
-        }
+        } 
+        
+        let string = "";
+
+        do {
+            if(inicio%3 == 0) {
+                string += inicio;
+            }
+
+            inicio++;
+        } while(inicio <= fin);
+
+        return string;
     }
 }
 
