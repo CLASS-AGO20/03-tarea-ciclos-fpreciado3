@@ -41,6 +41,9 @@ export default class App {
         }
         while(numero >= 2);
     }
+
+    obtenerMultiplos(inicio, fin) {
+
 }
 
 let app = new App();
