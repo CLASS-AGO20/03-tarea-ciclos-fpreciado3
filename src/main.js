@@ -49,7 +49,7 @@ export default class App {
             inicio = fin;
             fin = t;
         } 
-        
+
         let string = "";
 
         do {
@@ -75,3 +75,7 @@ console.log(app.esPrimo(2));
 console.log(app.esPrimo(3));
 console.log(app.esPrimo(7));
 console.log(app.esPrimo(8));
+//Prueba de la función obtenerMultiplos()
+console.log(app.obtenerMultiplos(3,12));
+console.log(app.obtenerMultiplos(18,2));
+
