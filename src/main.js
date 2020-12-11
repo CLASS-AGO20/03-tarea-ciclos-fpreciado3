@@ -70,7 +70,7 @@ export default class App {
             numero1 = numero2;
             numero2 = m;
         }
-        
+
         let string = "";
 
         do{
@@ -101,4 +101,6 @@ console.log(app.esPrimo(8));
 //Prueba de la función obtenerMultiplos()
 console.log(app.obtenerMultiplos(3,12));
 console.log(app.obtenerMultiplos(18,2));
-
+//Prueba de la función obtenerImpares()
+console.log(app.obtenerImpares(2,9));
+console.log(app.obtenerImpares(12,3));
