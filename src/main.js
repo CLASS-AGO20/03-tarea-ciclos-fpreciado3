@@ -70,6 +70,20 @@ export default class App {
             numero1 = numero2;
             numero2 = m;
         }
+        
+        let string = "";
+
+        do{
+            if(numero1%2 !== 0) {
+                string += numero1 + ",";
+            }
+            
+            numero1--;
+        }while(numero1 >= numero2);
+
+        string = string.substr(0, string.length-1);
+        return string;
+        
     }
 }
 
