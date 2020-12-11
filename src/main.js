@@ -62,6 +62,10 @@ export default class App {
 
         return string;
     }
+
+    obtenerImpares(numero1, numero2) {
+        
+    }
 }
 
 let app = new App();
